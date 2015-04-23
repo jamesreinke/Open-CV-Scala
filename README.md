@@ -1,1 +1,1 @@
-### ScalaCV
+### Scala-OpenCV
