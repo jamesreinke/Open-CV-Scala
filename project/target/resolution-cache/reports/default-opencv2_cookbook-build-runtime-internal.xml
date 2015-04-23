@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="opencv2_cookbook-build"
+		revision="0.1-SNAPSHOT"
+		extra-scalaVersion="2.10"
+		extra-sbtVersion="0.13"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20150422182149"/>
+	<dependencies>
+		<module organisation="org.bytedeco" name="javacpp">
+			<revision name="0.11" status="release" pubdate="20150404011451" resolver="public" artresolver="public" homepage="http://bytedeco.org/javacpp/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="GPLv2 with Classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="successful" details="" size="7431" time="299" location="/Users/jamesreinke/.ivy2/cache/org.bytedeco/javacpp/ivy-0.11.xml" searched="true" original-local-location="/Users/jamesreinke/.ivy2/cache/org.bytedeco/javacpp/ivy-0.11.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bytedeco/javacpp/0.11/javacpp-0.11.pom"/>
+				<caller organisation="default" name="opencv2_cookbook-build" conf="compile, runtime-internal, runtime, optional" rev="0.11" rev-constraint-default="0.11" rev-constraint-dynamic="0.11" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="javacpp" type="maven-plugin" ext="jar" status="successful" details="" size="237500" time="484" location="/Users/jamesreinke/.ivy2/cache/org.bytedeco/javacpp/maven-plugins/javacpp-0.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bytedeco/javacpp/0.11/javacpp-0.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
